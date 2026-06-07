@@ -19,6 +19,7 @@ Munich city administration handles thousands of regulatory queries per day. Case
 ## Architecture
 
 MucAtlas is structured in four layers, with five specialised agents in the Agent Layer.
+![MucAtlas Architecture](mucatlas_architecture.svg)
 
 ### Layer 1 — Knowledge Layer
 Ingests all internal sources on a nightly schedule: Windows file servers (SMB), SharePoint wiki, Exchange email archives, and scanned PDFs (via multimodal model).
